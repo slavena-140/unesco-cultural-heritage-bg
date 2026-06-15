@@ -1,0 +1,393 @@
+/* Основни стилове */
+body {
+    text-align: justify; /*Двустранно подравнен текст*/
+    font: 14pt Times New Roman;
+    background-color: #fff7eb; /*Основен цвят за фона*/
+}
+
+/*лого, заглавие и слоган*/
+#logo{
+    float: left;
+}
+
+#logo p{
+    color: #59372b; /*Цвят на заглавието*/
+}
+
+#zaglavie{
+    text-align: center;
+    padding: 55px;
+    font-size: 55px;
+    font-style: oblique;
+    color: #59372b;
+}
+
+/*за връзките*/
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+
+/*Меню*/
+nav ul {
+    clear: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #59372b;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111; /*при преминаване си сменя цвета*/
+}
+
+.active {
+    background-color: #cca98d; /*страницата в момента*/
+}
+
+/*footer*/
+footer {
+    text-align: center;
+    color: #59372b;
+}
+
+/*index*/
+.textP{
+    margin: 15px 50px;
+    padding:15px 50px;
+    width: 85%;
+    border-radius: 40px;
+}
+
+.responsive-map{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+h2{
+    text-align: center;
+    color: #59372b;
+    clear: left;
+}
+
+/*relligiozno*/
+.religiozni1 h1, #trakiiskiZagl, antichniZagl, #galeriQ {
+    text-align: center;
+    color: #59372b;
+}
+
+table{
+    border-radius: 40px;
+    background: #cca98d;
+
+}
+td a{
+    color:#59372b;
+    font-weight: 600;
+}
+
+article{
+    padding: 30px 90px;
+}
+
+/*снивките в таблицата*/
+.religiozni1 img{
+    padding: 15px 100px;
+    width: 300px;
+}
+
+.religiozni1 .red{
+    text-align: center;
+}
+
+/*непсредствено - снимката*/
+article>img{
+    width: 450px;
+    height: auto;
+    float: left;
+    padding: 10px 20px;
+}
+
+/*trakiiski*/
+.fakti{
+    background-color: #cca98d;
+    border-radius: 40px;
+    padding: 60px;
+    clear: left;
+    font-size: larger;
+}
+
+.imgFakti {
+    width: 100px;
+    float: left;
+}
+
+/*antichni*/
+#video{
+    text-align: center;
+}
+
+/*kontakti*/
+#informaciq{
+    background-color: #cca98d;
+    text-align: center;
+    color: #59372b;
+}
+
+#informaciq a {
+    color: inherit; /* Унаследява цвета на родителския елемент */
+    text-decoration: none; /* Премахва подчертаването */
+}
+
+#forma{
+    background-color: #cca98d;
+    text-align: center;
+}
+
+fieldset{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+label, legend, input{
+    color: #59372b;
+}
+
+.button {
+    background-color: #9f624f;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 15px 32px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/* Основно стилизиране за текстови полета и текстова зона */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+    background-color:  #fff7eb; 
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); 
+    font-size: 16px; 
+
+}
+
+/*галерия*/
+.slider {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Responsive design с ширина до 600px */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 12pt; /* Намаляване на шрифта за мобилни устройства */
+    }
+
+    /*index*/
+    #zaglavie {
+        font-size: 24px; /* Намаляване на размера на заглавието */
+        padding: 10px;
+        word-wrap: break-word; /* Пренасяне на думите, ако са твърде дълги */
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column; /* Менюто става вертикално */
+    }
+
+    nav li {
+        float: none; /* Премахване на подравняването */
+        text-align: center; /* Центриране на елементите */
+    }
+
+    .textP {
+        margin: 5px 5px;
+        padding: 10px;
+        width: 95%; /* Пълна ширина на екрана */
+    }
+
+    .responsive-map {
+        width: 100%; /* Картата заема цялата ширина */
+        height: auto;
+    }
+
+    footer {
+        font-size: 10pt; /* Намаляване на шрифта във футъра */
+    }
+
+    #logo img{
+        display: none;
+    }
+
+    #logo p{
+        display: none;
+    }
+
+    #menu {
+        font-size: 14px; /* По-малък шрифт за менюто */
+    }
+
+    /*religiozno*/
+    .religiozni1 img {
+        padding: 5px;
+        width: 80%;
+    }
+
+    table {
+        width: 100%;
+        margin: 0 auto;
+        border-spacing: 5px;
+    }
+
+    article {
+        padding: 5px;
+    }
+
+    article>img {
+        width: 90%;
+        height: auto;
+        float: none;
+    }
+
+    /*trakiiski*/
+    .fakti{
+        font-size: 14px;
+    }
+
+    .imgFakti {
+        width: 45px;
+    }
+
+    /*antichni*/
+    #video{
+        text-align: center;
+        width: 100%;
+    }
+
+    #video iframe {
+        width: 100%; /* Видео да се адаптира към ширината на екрана */
+        height: auto;
+    }
+
+}
+
+/* Responsive design с ширина до 992px */
+@media only screen and (max-width: 992px){
+    body {
+        font-size: 13pt; /* Среден шрифт за таблети */
+    }
+
+    /* Заглавие */
+    #zaglavie {
+        font-size: 36px; /* Увеличен размер в сравнение с мобилни */
+        padding: 20px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column; /* Вертикално меню */
+        align-items: center; /* Центриране */
+    }
+
+    nav li {
+        float: none;
+        width: 100%; /* Пълна ширина на бутона */
+        text-align: center;
+    }
+
+    nav li a {
+        padding: 12px;
+        font-size: 16px; /* По-голям шрифт от мобилния */
+    }
+
+    .textP {
+        margin: 10px 20px;
+        padding: 15px;
+        width: 90%; /* Умерено стесняване */
+    }
+
+    .responsive-map {
+        max-width: 90%; /* По-добра адаптивност */
+        margin: 0 auto;
+    }
+
+    footer {
+        font-size: 12pt;
+        padding: 10px 0;
+    }
+
+    /* Снимки в секции */
+    .religiozni1 img {
+        padding: 10px;
+        width: 60%; /* Умерено намаление */
+    }
+
+    article>img {
+        width: 70%;
+        height: auto;
+        float: none; /* Премахване на подравняване */
+        margin: 10px auto;
+        display: block; /* Центриране */
+    }
+
+    table {
+        width: 90%;
+        margin: 0 auto;
+        border-spacing: 10px;
+    }
+    #video{
+        text-align: center;
+        width: 100%;
+    }
+    #video iframe {
+        width: 100%; /* Видеото да се адаптира към ширината на екрана */
+        height: auto;
+    }
+    /* Формуляр */
+    #forma fieldset {
+        width: 90%;
+    }
+
+    .button {
+        font-size: 14px; /* Малко по-малък бутон */
+        padding: 10px 20px;
+    }
+}

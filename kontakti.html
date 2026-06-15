@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--  -->
+<html>
+    <head>
+        <title>Контакти</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles.css" rel="stylesheet" type="text/css"/>
+        <link rel="icon" href="images/ficon.ico" type="image/x-icon"> 
+    </head>
+    <body>
+        <header>
+            <div id="logo">
+                <a href="index.html"><img src="images/final.jpg" alt="Лого на сайта" width="125" height="125"></a>
+                <p>Опознай България!</p>
+            </div>
+            <div>
+                <a href="index.html"><h1 id="zaglavie">Културното наследство на ЮНЕСКО в България</h1></a>
+            </div>
+            <nav>                            
+                <ul id="menu">
+                    <li><a href="index.html">Начало</a></li>
+                    <li><a href="religiozno.html">Религиозно  наследство</a></li>
+                    <li><a href="trakijski.html">Тракийски обекти</a></li>
+                    <li><a href="antichni.html">Старинни културни символи</a></li>
+                    <li><a href="galeriq.html">Галерия</a></li>
+                    <li><a class="active" href="kontakti.html">Контакти</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="informaciq">
+                <p>За повече информация или въпроси се свържете с нас! На линия сме, за да отговорим на Вашите въпрси!</p>
+                <p>Телефон: +359 123 456 789</p>
+                <a href="mailto:info@unesco-bg.bg"><p>Email: info@unesco-bg.bg</p></a>
+                <p>В социалните мрежи:<br>
+                    <br><a href="https://www.unesco.org/en" target="blank">Официален сайт на UNESCO</a> | <a href="https://www.youtube.com/UNESCO" target="blank">Youtube</a></p>
+                <p>Или чрез формата за контакти.</p>
+            </div>
+            <section id="forma">
+                <h2>Форма за контакт</h2>
+                <form action="/action_page.php" method="post">
+                    <label for="fname">Име:</label>
+                    <input type="text" id="fname" name="fname" required placeholder="Вашето име"><br><br>
+                    <label for="lname">Фамилия:</label>
+                    <input type="text" id="lname" name="lname" required placeholder="Вашата фамилия"><br><br>
+                    <label for="email">Имейл:</label>
+                    <input type="email" id="email" name="email" required placeholder="Вашият имейл"><br><br>
+                    <label for="message">Съобщение:</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Вашето съобщение" wrap="soft"></textarea><br><br>
+                    <label for="phoneNumber">Телефонен номер:</label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Вашият телефонен номер"><br><br>
+                    <fieldset>
+                        <legend>Как предпочитате да се свържем с Вас?</legend>
+                        <label>
+                            <input type="radio" name="contactMethod" value="email" checked> Email
+                        </label>
+                        <label>
+                            <input type="radio" name="contactMethod" value="phone"> Телефон
+                        </label>
+                    </fieldset>
+                    <br>
+                    <input type="submit"  class="button" value="Изпрати">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Сайтът е изработен от Славена Славова, ф.н. 140-24126</p>
+            <p>© 2024 Културното наследство на ЮНЕСКО в България | <a href="index.html">Начало</a></p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+<img src="karta.png" width="6000" height="4000" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:User -->
+<area shape="rect" coords="330,2186,1857,2945" href="https://rilskimanastir.org/" />
+<area shape="rect" coords="193,1520,1686,2175" href="https://boyanachurch.info/" />
+<area shape="rect" coords="2277,276,3801,1118" href="https://bg.wikipedia.org/wiki/%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%D0%B8_%D1%81%D0%BA%D0%B0%D0%BB%D0%BD%D0%B8_%D1%86%D1%8A%D1%80%D0%BA%D0%B2%D0%B8" />
+<area shape="rect" coords="2273,1364,3807,2219" href="https://visitkazanlak.bg/places/%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%BB%D1%8A%D1%88%D0%BA%D0%B0%D1%82%D0%B0-%D1%82%D1%80%D0%B0%D0%BA%D0%B8%D0%B9%D1%81%D0%BA%D0%B0-%D0%B3%D1%80%D0%BE%D0%B1%D0%BD%D0%B8%D1%86%D0%B0/" />
+<area shape="rect" coords="3973,37,5455,812" href="https://www.museumisperih.com/" />
+<area shape="rect" coords="4009,833,5461,1612" href="https://bg.wikipedia.org/wiki/%D0%9C%D0%B0%D0%B4%D0%B0%D1%80%D1%81%D0%BA%D0%B8_%D0%BA%D0%BE%D0%BD%D0%BD%D0%B8%D0%BA" />
+<area shape="rect" coords="3971,1666,5419,2434" href="https://welcome.bg/listing/%D1%81%D1%82%D0%B0%D1%80%D0%B8%D1%8F-%D0%B3%D1%80%D0%B0%D0%B4-%D0%BD%D0%B5%D1%81%D0%B5%D0%B1%D1%8A%D1%80/" />
+</map>
