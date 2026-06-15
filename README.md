@@ -5,10 +5,8 @@
 
 An interactive, responsive multi-page educational website dedicated to the 7 major UNESCO cultural heritage sites in Bulgaria. Built from scratch using semantic HTML5, custom CSS3, responsive image mapping, and JavaScript interactive layers.
 
-```markdown
 ![Homepage Preview](screenshot1.png)
 ![Contact Page Preview](screenshot2.png)
-```
 
 ## 🚀 Features & Interactivity
 - **Responsive Image Map:** The homepage features a large map of Bulgaria (`karta.png`) with clickable anchor links mapped directly over the historical sites. A custom JavaScript event listener recalculates the coordinate matrix dynamically when the window is resized.
